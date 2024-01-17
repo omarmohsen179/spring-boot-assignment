@@ -1,0 +1,4 @@
+FROM openjdk:17
+WORKDIR /app
+COPY target/systemDesign-0.0.1-SNAPSHOT-exec.jar systemDesign-0.0.1-SNAPSHOT-exec.jar
+CMD ["java", "-jar", "systemDesign-0.0.1-SNAPSHOT.jar"]
